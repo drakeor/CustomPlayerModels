@@ -735,6 +735,11 @@ public class Editor {
 	}
 
 	@SuppressWarnings("unchecked")
+	public void load_blockbench(File file) throws IOException {
+		
+	}
+	
+	@SuppressWarnings("unchecked")
 	public void load(File file) throws IOException {
 		loadDefaultPlayerModel();
 		project.load(file);
